@@ -10,7 +10,7 @@ public class MyController {
     public String localdate() {
         LocalDate dateObj = LocalDate.now();
         DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        String formattedDateTime = dateObj.format(formatter1);
+        formattedDateTime = dateObj.format(formatter1);
         return formattedDateTime;
     }
 }
